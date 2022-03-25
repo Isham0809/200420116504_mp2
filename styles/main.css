@@ -1,0 +1,44 @@
+:root {
+    --mainWhite: #000000;
+    --mainGreen: #cb9eff;
+    --mainBlue: #636363;
+    --lightBlue: #00a6ed;
+    --mainBlack: #333333;
+}
+
+.max-height {
+    min-height: 70vh;
+}
+
+body {
+    background: url("../images/03.jpg") center/cover fixed no-repeat;
+    color: var(--mainWhite);
+    margin: 50px;
+}
+
+.main-container {
+    border: 0.3rem var(--mainWhite);
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 4rem;
+}
+
+#counter {
+    color: var(--mainGreen);
+    font-size: 5rem;
+    color: var(--mainBlack);
+}
+
+.prevBtn,
+.nextBtn {
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+}
+
+.prevBtn:hover {
+    background: var(--lightBlue);
+}
+
+.nextBtn:hover {
+    background: var(--lightBlue);
+}
